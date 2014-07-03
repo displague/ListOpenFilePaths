@@ -1,6 +1,6 @@
 import sublime,sublime_plugin,os
 
-class ListOpenFilesCommand(sublime_plugin.TextCommand):
+class ListOpenFilePathsCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
         window = sublime.active_window()

@@ -1,4 +1,4 @@
-List Open Files
+List Open File Paths
 ==========
 
 Generates a text list of all the open files in current sublime text window.
@@ -6,7 +6,7 @@ Generates a text list of all the open files in current sublime text window.
 Installation
 ------------
 
-Using Package Control, install "ListOpenFiles"
+Using Package Control, install "ListOpenFilePaths"
 
 
 Keybindings
@@ -18,10 +18,10 @@ Add a keybinding by going to preferences->key Bindings-User
 My preferred key binding:
 
     [
-       { "keys": ["ctrl+alt+l"], "command": "list_open_files" }
+       { "keys": ["ctrl+alt+l"], "command": "list_open_filepaths" }
     ]
 
 
 Command
 ------------
-list_open_files: Creates a text list of all the open files in Sublime Text.
+list_open_filepaths: Creates a text list of all the open files in Sublime Text.
